@@ -3,14 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rebeka Akane Fimmel</title>
+  <meta name="description" content="Artist portfolio">
+  <title>Rebeka Akane Fimmel — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="header">
     <a class="name" href="#top">Rebeka Akane Fimmel</a>
     <nav aria-label="Main navigation">
-      <a href="#profile">PROFILE/CV</a>
+      <a href="#profile">PROFILE</a>
+      <a href="#cv">CV</a>
       <a href="#works">WORKS</a>
       <a href="#contact">CONTACT</a>
     </nav>
@@ -21,37 +26,113 @@
       <img src="images/featured-work.jpg" alt="Featured artwork">
     </section>
 
-    <section id="profile" class="section">
-      <h2>PROFILE/CV</h2>
+    <section id="profile" class="section section-profile">
+      <div class="section-label">PROFILE</div>
       <div class="profile-layout">
-        <!-- When you have a profile photo, put it in images/profile.jpg and change .profile-photo to display: block in style.css. -->
+        <!-- Optional: add images/profile.jpg and change display:none to display:block in style.css. -->
         <!-- <img class="profile-photo" src="images/profile.jpg" alt="Artist portrait"> -->
-
         <div class="profile-text">
-         
-          <p><strong>Rebeka Akane Fimmel </strong>Rebeka Akane Fimmel (geb. 1998 in Dresden) arbeitet interdisziplinär zwischen Skulptur und Performance. 
-            Dabei untersucht sie wie sich innerhalb eines abgegrenzten Zeitraumes die Beziehungen zwischen Raum, Audience, 
-            Objekt und Artist verändern und neue Formen der Kommunikation entstehen.  </p>
-          
-
-          <div class="short biography">
-        
-          <p><strong>2020-2027</strong><br>Burg Giebichenstein Kunsthochschule Halle (Saale), Plastik/Keramik 
-            <p><strong>2024-2025</strong><br>
-            Tokyo University of the Arts, Sculpture Department </p>
-        </div>
-
-        <div class="exhibitions">
-         
-           <div class="groups shows"><strong>2027</strong><span>Cannons and Bells</span></div> 
-           <div class="groups shows"><strong>2026</strong><span>Dust in the Stomach, with Karu Miyoshi</span></div>
-          <div class="groups shows"><strong>2025</strong><span>Tale as old as Time, Digging on salty Grounds</span></div>
+          <p>Rebeka Akane Fimmel (born 1998 in Dresden) is a interdisciplinary artist working between Germany and Japan.
+          Her sculptural work is closely linked to material and site specific research.
+          </p>
+          <p>  The artist draws thematically from her cultural backround of Eastern Germany as well as her japanese roots, creating a shifting
+          expressions depending on the context. In this environment communication becomes a crucial factor in exhibting art.</p>
         </div>
       </div>
     </section>
 
+    <section id="cv" class="section section-cv">
+      <div class="section-label">CV</div>
+      <div class="cv">
+        <section class="cv-group">
+          <h2>EDUCATION</h2>
+
+          <div class="cv-entry">
+            <div class="cv-year">2020–2027</div>
+            <div class="cv-details">
+              <strong>Burg Giebichenstein School of Art and Design, Ceramics Department</strong>
+            </div>
+          </div>
+
+          <div class="cv-entry">
+            <div class="cv-year">2024–2025</div>
+            <div class="cv-details">
+              <strong>Tokyo University of the Arts, Sculpture Department</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="cv-group">
+          <h2>SOLO / DUO SHOWS</h2>
+
+          <div class="cv-entry">
+            <div class="cv-year">2027</div>
+            <div class="cv-details">
+              <strong>Bells and Cannons</strong>
+              <span>Upcoming</span>
+            </div>
+          </div>
+
+          <div class="cv-entry">
+            <div class="cv-year">2026</div>
+            <div class="cv-details">
+              <strong>Dust in the Stomach</strong>
+              <span>SSK / Osaka</span>
+            </div>
+          </div>
+
+          <div class="cv-entry">
+            <div class="cv-year">2025</div>
+            <div class="cv-details">
+              <strong>Tale as Old as Time, Digging on Salty Grounds</strong>
+              <span>Burg Giebichenstein Site / Halle (Saale)</span>
+            </div>
+          </div>
+
+        <section class="cv-group">
+          <h2>GROUP SHOWS</h2>
+          <div class="cv-entry">
+            <div class="cv-year">2026</div>
+            <div class="cv-details">
+              <strong>Exhibition title</strong>
+              <span>Venue / city</span>
+            </div>
+          </div>
+          <div class="cv-entry">
+            <div class="cv-year">2025</div>
+            <div class="cv-details">
+              <strong>Exhibition title</strong>
+              <span>Venue / city</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="cv-group">
+          <h2>WORKSHOPS</h2>
+          <div class="cv-entry">
+            <div class="cv-year">2025</div>
+            <div class="cv-details">
+              <strong>Workshop title</strong>
+              <span>Institution / venue, city</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="cv-group">
+          <h2>GRANTS</h2>
+          <div class="cv-entry">
+            <div class="cv-year">YEAR</div>
+            <div class="cv-details">
+              <strong>Grant / residency / funding</strong>
+              <span>Organisation</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
     <section id="works" class="section">
-      <h2>WORKS</h2>
+      <div class="section-label">WORKS</div>
 
       <div class="project-list" aria-label="Projects">
         <a href="#bells-and-cannons">BELLS AND CANNONS</a>
@@ -62,7 +143,7 @@
 
       <div class="works">
         <article id="bells-and-cannons" class="project">
-          <h3>BELLS AND CANNONS</h3>
+          <h2>BELLS AND CANNONS</h2>
           <div class="work">
             <img src="images/featured-work.jpg" alt="Artwork from Bells and Cannons">
             <div class="work-info">
@@ -73,7 +154,7 @@
         </article>
 
         <article id="dust-in-the-stomach" class="project">
-          <h3>DUST IN THE STOMACH</h3>
+          <h2>DUST IN THE STOMACH</h2>
           <div class="work">
             <div class="work-placeholder">ADD IMAGE</div>
             <div class="work-info">
@@ -84,7 +165,7 @@
         </article>
 
         <article id="leftovers" class="project">
-          <h3>LEFTOVERS</h3>
+          <h2>LEFTOVERS</h2>
           <div class="work">
             <div class="work-placeholder">ADD IMAGE</div>
             <div class="work-info">
@@ -95,7 +176,7 @@
         </article>
 
         <article id="other-projects" class="project">
-          <h3>Tale as Old as Time, Digging on Salty Grounds</h3>
+          <h2>OTHER PROJECTS</h2>
           <div class="work">
             <div class="work-placeholder">ADD IMAGE</div>
             <div class="work-info">
@@ -108,10 +189,10 @@
     </section>
 
     <section id="contact" class="section">
-      <h2>CONTACT</h2>
+      <div class="section-label">CONTACT</div>
       <div class="contact-content">
-        <a href="mailto:akanefimmel@gmail.com">akanefimmel@gmail.com</a>
-        <a href="#">rebeka_akane</a>
+        <a href="mailto:email@example.com">email@example.com</a>
+        <a href="#">Instagram</a>
       </div>
     </section>
   </main>
